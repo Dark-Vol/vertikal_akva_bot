@@ -1,0 +1,19 @@
+{
+    "client_registration": {
+        "client_name": "Example Client",
+        "redirect_uris": [
+        "https://example.com/callback",
+        "https://example.com/redirect"
+        ],
+        "grant_types": [
+        "authorization_code",
+        "refresh_token"
+        ],
+        "response_types": [
+        "code",
+        "token"
+        ],
+        "token_endpoint_auth_method": "client_secret_basic",
+        "scope": "openid profile email"
+    }
+}
